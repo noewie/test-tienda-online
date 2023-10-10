@@ -1,0 +1,11 @@
+El objetivo de este ejercicio es maquetar y programar con javascript una "tienda online".
+
+render_list_of_items: es una función que se ejecuta al abrir la pagina en el navegador. Tiene que generar el html con el listado de productos de la tienta, detallados en la variable "data". La propiedad 'img' se correponde con el nombre de las imagenes .jpg de la carpeta img. Puedes utilizar cualquier recurso online, por ejemplo bootstrap, para generar algun tipo de ficha/card de producto, con su nombre y su precio.
+
+addItem: esta función tiene que ejecutarse para añadir un producto al carrito de la compra. Cada ficha de producto debe tener un botón para añadir el producto a la cesta. También cada producto debe tener un indicador de la cantidad de producto contenida en la cesta.
+
+removeItem: Lo mismo que addItem pero para quitar producto de la cesta.
+
+Es importante que haya en algún lugar de la página el número total de items en la cesta así como el precio total de la compra, que deben actualizarse debidamente al poner y quitar productos de la cesta.
+
+Opcionalmente: Si te da tiempo, algún tipo de visualización del contenido de la cesta.
